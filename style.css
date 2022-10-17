@@ -7,7 +7,7 @@ html {
 body {
   margin: 0;
   min-height: 100vh;
-  background-color: whitesmoke;
+  background: whitesmoke;
   font-family: Lato, sans-serif;
   display: flex;
   justify-content: center;
@@ -18,8 +18,8 @@ body {
   width: 530px;
   height: 600px;
   background: white;
-  border-radius: 5px;
   box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
 }
 
 .header {
@@ -48,10 +48,9 @@ h2 {
 .far {
   font-size: 50px;
   margin-right: 40px;
-  User-select: none;
 }
 
-#player .far, 
+#player .far,
 #player .choice {
   color: dodgerblue;
   cursor: pointer;
